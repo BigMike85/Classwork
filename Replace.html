@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>Replace paragraph</title>
+</head>
+<body>
+    <p id="para1">
+        Rip
+    </p>
+    <p id="para2">
+        Tear
+    </p>
+    <button id="b1">Click</button>
+    <script>
+        document.getElementById("b1").addEventListener("click",myFunction);
+        function myFunction(){
+            document.getElementById("para2").innerHTML="Rip and Tear";
+            document.getElementById("para1").innerHTML=".";
+        }
+     </script>
+</body>
